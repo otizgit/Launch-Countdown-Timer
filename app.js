@@ -20,7 +20,7 @@ const countDown = () => {
 
   if (gap < 1000) {
     document.querySelector(".countdown").style.display = "none";
-    document.querySelector(".title").innerText = "LAUNCH COMPLETE!";
+    document.querySelector(".title").innerText = "HAPPY NEW YEAR!";
   }
 };
 
