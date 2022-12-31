@@ -1,5 +1,5 @@
 const countDown = () => {
-  const countDate = new Date("January 1, 2023 00:00:00").getTime();
+  const countDate = new Date("January 10, 2023 00:00:00").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
@@ -20,7 +20,7 @@ const countDown = () => {
 
   if (gap < 1000) {
     document.querySelector(".countdown").style.display = "none";
-    document.querySelector(".title").innerText = "HAPPY NEW YEAR!";
+    document.querySelector(".title").innerText = "LAUNCH COMPLETE!";
   }
 };
 
